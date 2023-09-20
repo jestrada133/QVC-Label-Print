@@ -1,0 +1,26 @@
+copycellvalue(sourcexl, destinationxl, sourcecell, destinationcell):
+    changes desination cell and changes to source cell
+
+printxl(filepath, printer):
+    print file from filepath, sends print job to printer arg
+
+savexl(filepath, printer):
+    save each pallet iteration of xl file
+
+selectprinter():
+    gives user list of available printers
+    prompts user to select a printer
+    returns printer string
+
+main():
+    call copycellvalue() to take number of pallets
+    declare new global var called numPallets
+    printerchoice = selectprinter()
+
+    prototype printxl() [AKA savexl] should create a new xl docu for each pallet iteration of QVC label xl template
+    printxl should send printjob (2) times to specified printer
+
+TODO:   make prototype savexl function
+        test prototype savexl function
+        make printxl function
+        test printxl function

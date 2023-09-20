@@ -80,3 +80,7 @@ printer_name = select_printer()
 
 # Print the XL file to the selected printer.
 print_xl_file(file_path, printer_name)
+
+# TODO: create main() and move all actions
+
+# TODO: 
