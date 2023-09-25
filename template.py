@@ -1,8 +1,8 @@
 import openpyxl
 import win32print
 
-source_file_path = "C:\Users\JordanEstrada\Downloads\TestXL.xlsx"
-destination_file_path = "C:\Users\JordanEstrada\Downloads\Test2XL.xlsx"
+source_file_path = "source.xlsx"
+destination_file_path = "destination.xlsx"
 
 def copy_cell_value(source_file_path, destination_file_path, source_cell_address, destination_cell_address):
   """Copies the value of a cell from one XLSX file to another.
